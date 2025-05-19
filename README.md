@@ -42,7 +42,7 @@ cc snake.c -o snake -Wall
 
 - `snake.c` : code source principal du jeu
 - `README.md` : ce fichier d’aide
-- `doc/` : documentation
+- `doc.rtf` : documentation
 
 ## 👤 Auteur
 
