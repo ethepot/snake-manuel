@@ -1,5 +1,3 @@
-# snake-manuel
-Jeu de Snake en langage C
 # Snake en C
 
 Ce projet est une implémentation du jeu classique **Snake** en langage C, jouable directement dans un terminal.
