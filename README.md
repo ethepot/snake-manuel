@@ -41,6 +41,6 @@ gcc -o snake snake.c
 - `README.md` : ce fichier d’aide
 - `doc/` : documentation éventuelle
 
-## Auteurs
+## Auteur
 
 - Ewen Thépot
