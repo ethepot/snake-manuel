@@ -44,7 +44,3 @@ gcc -o snake snake.c
 ## Auteurs
 
 - Ewen Thépot
-
-## Licence
-
-Ce projet est proposé sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus d’informations.
