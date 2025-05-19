@@ -4,7 +4,6 @@ Ce projet est une implémentation du jeu classique **Snake** en langage C, jouab
 
 ![Langage C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![Terminal](https://img.shields.io/badge/Terminal-black?style=for-the-badge&logo=windows-terminal&logoColor=white)
-![Licence MIT](https://img.shields.io/badge/Licence-MIT-green?style=for-the-badge)
 
 ---
 
@@ -13,19 +12,19 @@ Ce projet est une implémentation du jeu classique **Snake** en langage C, jouab
 - 🎮 Déplacement du serpent avec les touches directionnelles
 - 🍏 Apparition aléatoire de la nourriture
 - 🐍 Augmentation de la longueur du serpent à chaque nourriture mangée
-- 💥 Détection des collisions (murs et corps du serpent)
+- 💥 Détection des collisions (murs, obstacles et corps du serpent)
 - 🏆 Affichage du score et augmentation progressive de la vitesse
 - 🖥️ Jeu entièrement en mode texte (terminal)
 
 ## ⚙️ Prérequis
 
 - Un compilateur C ([GCC](https://gcc.gnu.org/) recommandé)
-- Un terminal compatible (Linux, macOS ou Windows avec un terminal prenant en charge les séquences ANSI)
+- Un terminal compatible (Linux)
 
 ## 🛠️ Compilation
 
 ```bash
-gcc -o snake snake.c
+cc snake.c -o snake -Wall
 ```
 
 ## ▶️ Lancement du jeu
@@ -36,14 +35,14 @@ gcc -o snake snake.c
 
 ## 🎯 Contrôles
 
-- ⬅️ ➡️ ⬆️ ⬇️ : déplacer le serpent
-- `Q` ou `Échap` : quitter le jeu
+- z q s d : déplacer le serpent
+- `a` : arrêter le jeu
 
 ## 📁 Structure du projet
 
 - `snake.c` : code source principal du jeu
 - `README.md` : ce fichier d’aide
-- `doc/` : documentation éventuelle
+- `doc/` : documentation
 
 ## 👤 Auteur
 
